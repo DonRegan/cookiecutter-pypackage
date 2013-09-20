@@ -1,0 +1,12 @@
+{
+	"full_name": "Joel Akeret",
+	"email": "jakeret@phys.ethz.ch",
+	"credits": "Institute of Astronomy ETHZ",
+	"project_url": "http://www.astro.ethz.ch/refregier/research/index",
+	"project_name": "MyProject",
+	"repo_name": "myproject",
+	"project_short_description": "Does some fundamental science",
+	"release_date": "2013-07-10",
+	"year": "2013",
+	"version": "0.1.0"
+}
