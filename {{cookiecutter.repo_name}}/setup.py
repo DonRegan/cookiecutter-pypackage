@@ -36,7 +36,8 @@ The full documentation can be generated with Sphinx"""
 
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
-requires = []
+requires = [] #during runtime
+tests_require=["pytest"] #for testing
 
 setup(
     name='{{ cookiecutter.repo_name }}',
@@ -52,6 +53,7 @@ setup(
     package_dir={'{{ cookiecutter.repo_name }}': '{{ cookiecutter.repo_name }}'},
     include_package_data=True,
     install_requires=requires,
+    tests_require=tests_require,
     license='MIT',
     zip_safe=False,
     keywords='{{ cookiecutter.repo_name }}',
