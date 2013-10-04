@@ -13,7 +13,7 @@ Contents:
 
    installation
    usage
-   {{ cookiecutter.project_name }}
+   {{ cookiecutter.repo_name }}
    contributing
    authors
    history
