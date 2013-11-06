@@ -3,9 +3,9 @@
 	"email": "jakeret@phys.ethz.ch",
 	"credits": "Institute of Astronomy ETHZ",
 	"project_url": "http://www.astro.ethz.ch/refregier/research/index",
-	"project_name": "MyProject",
-	"repo_name": "myproject",
-	"project_short_description": "Does some fundamental science",
+	"project_name": "My new Python-project!",
+	"repo_name": "pythoproject",
+	"project_short_description": "This is my new Python-project and it does some fundamental science!",
 	"release_date": "2013-07-10",
 	"year": "2013",
 	"version": "0.1.0"
