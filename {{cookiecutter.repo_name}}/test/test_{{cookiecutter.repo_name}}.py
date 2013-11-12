@@ -1,3 +1,6 @@
+
+# Copyright (C) {{ cookiecutter.year }} {{ cookiecutter.credits }}
+
 """
 Tests for `{{ cookiecutter.repo_name }}` module.
 """
