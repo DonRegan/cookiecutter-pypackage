@@ -60,7 +60,7 @@ setup(
         'Development Status :: 2 - Pre-Alpha',
         "Intended Audience :: Science/Research",
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Proprietary',
         'Natural Language :: English',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
