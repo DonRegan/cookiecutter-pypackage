@@ -53,7 +53,7 @@ setup(
     package_dir={'{{ cookiecutter.repo_name }}': '{{ cookiecutter.repo_name }}'},
     include_package_data=True,
     install_requires=requires,
-    license='MIT',
+    license='Proprietary',
     zip_safe=False,
     keywords='{{ cookiecutter.repo_name }}',
     classifiers=[
