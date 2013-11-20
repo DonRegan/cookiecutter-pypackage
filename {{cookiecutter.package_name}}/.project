@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>{{ cookiecutter.repo_name }}</name>
+	<name>{{ cookiecutter.package_name }}</name>
 	<comment></comment>
 	<projects>
 	</projects>

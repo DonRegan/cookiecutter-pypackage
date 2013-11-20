@@ -9,4 +9,4 @@ from __future__ import print_function, division, absolute_import, unicode_litera
 # External modules
 
 
-# {{cookiecutter.repo_name}} imports
+# {{cookiecutter.package_name}} imports

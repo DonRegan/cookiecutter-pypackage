@@ -60,4 +60,4 @@ Tips
 
 To run a subset of tests::
 
-	 $ py.test test/test_{{ cookiecutter.repo_name }}.py
+	 $ py.test test/test_{{ cookiecutter.package_name }}.py
