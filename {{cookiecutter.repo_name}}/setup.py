@@ -40,7 +40,7 @@ requires = [] #during runtime
 tests_require=['pytest>=2.3'] #for testing
 
 setup(
-    name='{{ cookiecutter.package_name }}',
+    name='{{ cookiecutter.repo_name }}',
     version='{{ cookiecutter.version }}',
     description='{{ cookiecutter.project_short_description }}',
     long_description=readme + '\n\n' + doclink + '\n\n' + history,
@@ -48,14 +48,14 @@ setup(
     author_email='{{ cookiecutter.email }}',
     url='{{ cookiecutter.project_url }}',
     packages=[
-        '{{ cookiecutter.package_name }}',
+        '{{ cookiecutter.repo_name }}',
     ],
-    package_dir={'{{ cookiecutter.package_name }}': '{{ cookiecutter.package_name }}'},
+    package_dir={'{{ cookiecutter.repo_name }}': '{{ cookiecutter.repo_name }}'},
     include_package_data=True,
     install_requires=requires,
     license='Proprietary',
     zip_safe=False,
-    keywords='{{ cookiecutter.package_name }}',
+    keywords='{{ cookiecutter.repo_name }}',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         "Intended Audience :: Science/Research",

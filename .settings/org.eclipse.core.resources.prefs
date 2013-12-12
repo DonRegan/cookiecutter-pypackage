@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-encoding//{{cookiecutter.package_name}}/docs/conf.py=utf-8
+encoding//{{cookiecutter.repo_name}}/docs/conf.py=utf-8
