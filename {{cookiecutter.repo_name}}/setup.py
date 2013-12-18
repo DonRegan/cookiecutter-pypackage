@@ -39,6 +39,8 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 requires = [] #during runtime
 tests_require=['pytest>=2.3'] #for testing
 
+PACKAGE_PATH = os.path.abspath(os.path.join(__file__, os.pardir))
+
 setup(
     name='{{ cookiecutter.repo_name }}',
     version='{{ cookiecutter.version }}',
@@ -47,9 +49,7 @@ setup(
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',
     url='{{ cookiecutter.project_url }}',
-    packages=[
-        '{{ cookiecutter.repo_name }}',
-    ],
+    packages=find_packages(PACKAGE_PATH, "test"),
     package_dir={'{{ cookiecutter.repo_name }}': '{{ cookiecutter.repo_name }}'},
     include_package_data=True,
     install_requires=requires,
