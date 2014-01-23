@@ -10,13 +10,12 @@ from {{ cookiecutter.repo_name }} import {{ cookiecutter.repo_name }}
 
 class Test{{ cookiecutter.repo_name|capitalize }}(object):
 
-    @classmethod
-    def setup_class(cls):
+    def setup(self):
         pass
 
     def test_something(self):
-        pass
+        x = 1
+        assert x==1
 
-    @classmethod
-    def teardown_class(cls):
+    def teardown(self):
         pass
