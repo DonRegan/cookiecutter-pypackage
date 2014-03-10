@@ -25,3 +25,6 @@ class Test{{ cookiecutter.repo_name|capitalize }}(object):
         #tidy up
         print("tearing down " + __name__)
         pass
+
+if __name__ == '__main__':
+    pytest.main()
