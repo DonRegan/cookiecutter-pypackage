@@ -1,12 +1,12 @@
 {
 	"full_name": "Joel Akeret",
-	"email": "jakeret@phys.ethz.ch",
+	"email": "joel.akeret@gmail.com",
 	"credits": "ETH Zurich, Institute for Astronomy",
-	"project_url": "http://www.astro.ethz.ch/refregier/research/index",
+	"project_url": "https://github.com/jakeret",
 	"project_name": "My new Python-project!",
 	"repo_name": "pythonproject",
-	"project_short_description": "This is my new Python-project and it does some fundamental science!",
-	"release_date": "2016-01-01",
-	"year": "2016",
+	"project_short_description": "This is my new Python-project!",
+	"release_date": "2017-01-01",
+	"year": "2017",
 	"version": "0.1.0"
 }
